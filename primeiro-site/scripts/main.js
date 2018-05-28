@@ -1,4 +1,4 @@
-var imagem = document.querySelector('img');
+var imagem = document.querySelector("img[class='imagem-mudavel']");
 
 imagem.onclick = function(){
 	var source = imagem.getAttribute('src');
@@ -10,7 +10,7 @@ imagem.onclick = function(){
 }
 
 var botao = document.querySelector('button');
-var heading = document.querySelector('h1');
+var heading = document.querySelector('h2');
 
 function setUserName(){
 	var name = prompt('Escreva seu nome');

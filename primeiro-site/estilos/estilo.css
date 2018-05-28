@@ -5,30 +5,33 @@ html {
 
 }
 
-h1{
+h2{
 	margin: 0;
 	padding: 20px 0;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 1px 1px 1px black;
 	font-size: 75px;
 	text-align: center;
-	color: white;
-	background-color: #000000;
+	color: black;
+	background-color: white;
 	
 }
 
 p,li{
 	font-size: 16px;
-	line-height: 1;
+	line-height: 1.2;
 	letter-spacing: 1px;
-	color: white;
+	color: black;
+}
+a{
+	color: #003366;
 }
 
 body{
 	width: 1050px;
 	margin: 20px auto;
-	background-color: #000000;
+	background-color: white;
 	padding: 0 20px 20px 20px;
-	border: 5px solid white;
+	border: 5px solid black;
 }
 
 img{
@@ -36,4 +39,47 @@ img{
 	margin: 0 auto;
 }
 
+.promo{
+	background: url(../imagens/descont) no-repeat top right;
+	font-size: 13px;
+	padding-right: 35px;
+	text-align: right;
+	width: 140px;
+	padding-top: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.primeiro-menu{
+	position: absolute;
+	bottom: -20px;
+	right: 0;
+}
+
+.primeiro-menu ul{
+	font-size: 16px;
+}
+
+.primeiro-menu ul li{
+	display: inline;
+	margin-left: 20px;
+}
+.container{
+	margin: 0 auto;
+	width: 1050px;
+}
+
+header{
+	position: relative;
+}
+.logotipo{
+	position: relative;
+	top: 20px;
+	left: -350px;
+}
+
+/*.primeiro-menu a{
+	color: #003366;
+}
 
